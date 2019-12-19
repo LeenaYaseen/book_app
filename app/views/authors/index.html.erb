@@ -1,0 +1,21 @@
+<h1>Library</h1>
+<table class="glyphicon glyphicon-pencil">
+  <tr>
+    <th>Authors</th>
+    <th>Publisher</th>
+    <th>Birthdate</th>
+    <th>first_name</th>
+    <th>last_name</th>
+    <th>pen_name</th>
+  </tr>
+
+  <% @author.each do |author| %>
+      <tr>
+        <td><%= author.first_name %></td>
+        <td><%= author.last_name %></td>
+        <td><%= author.publisher %></td>
+        <td><%= author.birthdate %></td>
+        <td><%= author.pen_name %></td>
+      </tr>
+  <% end %>
+</table>
