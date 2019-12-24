@@ -5,10 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-Author.create(publisher: "Penguin", genre: "Fantasy", birthdate: "1995-07-04", first_name: "Lisa", last_name: "Lolo", pen_name: "PEN1")
-Author.create(publisher: "Penguin1", genre: "Romance", birthdate: "1981-05-23", first_name: "Zanda", last_name: "IU", pen_name: "PEN2")
-Author.create(publisher: "Penguin2", genre: "Horror", birthdate: "2001-12-22", first_name: "Link", last_name: "USe", pen_name: "PEN3")
-Author.create(publisher: "Penguin3", genre: "Comedy", birthdate: "1982-05-10", first_name: "Zelda", last_name: "Kilo", pen_name: "PEN4")
+Author.create(publisher: "Penguin", birthdate: "1995-07-04", first_name: "Lisa", last_name: "Lolo", pen_name: "PEN1")
+Author.create(publisher: "Penguin1", birthdate: "1981-05-23", first_name: "Zanda", last_name: "IU", pen_name: "PEN2")
+Author.create(publisher: "Penguin2",  birthdate: "2001-12-22", first_name: "Link", last_name: "USe", pen_name: "PEN3")
+Author.create(publisher: "Penguin3",  birthdate: "1982-05-10", first_name: "Zelda", last_name: "Kilo", pen_name: "PEN4")
 
 
 
